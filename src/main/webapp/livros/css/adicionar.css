@@ -1,0 +1,154 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 30 de out. de 2024, 18:22:37
+    Author     : Mateus
+*/
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e background */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+/* Cabeçalho */
+.header {
+    text-align: center;
+    background-color: #00509e;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Container principal */
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Formulário de Adição */
+.add-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.add-form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+/* Botões do formulário */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.save-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #00509e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.save-btn:hover {
+    background-color: #003d80;
+}
+
+.cancel-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #d9534f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cancel-btn:hover {
+    background-color: #b52e2a;
+}
+
+.loan-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #00509e;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.loan-btn:hover {
+    background-color: #003d80;
+}
+
+/* Estilo para o botão de sair */
+.logout-btn {
+    background-color: #d9534f;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #b52e2a;
+}
+
+/* Ajustes para o formulário de logout */
+.logout-btn-container {
+    margin-left: 80vw;
+}
+
+/* Estilo para mensagens de sucesso */
+.success-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .add-form {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

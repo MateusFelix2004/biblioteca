@@ -1,0 +1,71 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 26 de out. de 2024, 20:38:04
+    Author     : Mateus
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    color: #333333;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    color: #555555;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    background-color: #0066cc; /* Cor do botão do header */
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #004999; /* Cor escura para o hover */
+}
+
+.error-message {
+    color: #d9534f;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
